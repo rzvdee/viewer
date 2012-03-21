@@ -1,0 +1,167 @@
+* {margin: 0; outline: 0; text-decoration:none; padding: 0;}
+
+body {
+	background: #19191d;
+}
+
+#header {
+	background: url(images/headerx.png) repeat-x;
+	height: 137px;
+}
+
+.head {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#header h1 {
+	float: left;
+	clear: left;
+	background: url(images/logo.png);
+	width: 318px;
+	height: 79px;
+	text-indent: -99999px;
+	margin: 30px 0 0 0;
+	position: fixed;
+}
+
+#header a{
+	float: right;
+	clear: right;
+	background: url(images/aboutus.png);
+	width: 116px;
+	height: 40px;
+	text-indent: -99999px;
+	margin: 45px 0 0 0;
+	position: static;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+
+#header a:hover {
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+
+.cleaner {
+	clear:both;
+	height:1px;
+	font-size:1px;
+	border:none;
+	margin:0; padding:0;
+	background: transparent;
+}
+
+#wrapper {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#wrapper h1 {
+	background: url(images/beautiful.png);
+	width: 262px;
+	height: 27px;
+	text-indent: -9999px;
+	margin: 25px auto 0 auto;
+}
+
+.motto {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	-webkit-font-smoothing: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
+	font-smooth: always;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.motto a {
+	color: #377ec6;
+}
+
+.motto a:hover {
+	color: #377ec6;
+	text-decoration: underline;
+}
+
+.split {
+	width: 331px;
+	height: 0px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #2b2b2d;
+	margin: 25px auto 25px auto;
+	text-indent: -99999px;
+}
+
+#container {
+	
+}
+
+#rsidebar {
+	width: 460px;
+	float: right;
+	font: normal 16px "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	-webkit-font-smoothing: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
+	font-smooth: always;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#rsidebar ul {
+	list-style: none;
+	margin: 20px 0 0 5px;
+}
+
+.mangaupdates a {
+	color: #377ec6;
+	font: bold 16px "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
+}
+
+.mangaupdates a:hover {
+	color: #fff;
+}
+
+#lsidebar {
+	width: 460px;
+	float: left;
+	font: normal 16px "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	-webkit-font-smoothing: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
+	font-smooth: always;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#lsidebar ul {
+	list-style: none;
+	margin: 20px 0 0 5px;
+}
+
+.twitterupdates a {
+	color: #377ec6;
+	font: bold 16px "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.twitterupdates a:hover {
+	color: #fff;
+}
+
+
+
+
+
+
