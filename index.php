@@ -37,5 +37,4 @@
 		</div>
 	</div>
 </body>
-lol
 random update
